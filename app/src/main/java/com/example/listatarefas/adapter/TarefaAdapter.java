@@ -26,7 +26,7 @@ public class TarefaAdapter extends RecyclerView.Adapter<TarefaAdapter.MyViewHold
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) { //criar o layout xml
 
         View itemLista = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.lista_tarefa_adapter, parent, false); //trazendo o layout
+                .inflate(R.layout.lista_tarefa_adapter, parent, false); //trazendo o layout (converte xml em view)
 
         return new MyViewHolder(itemLista); //carrega no MyViewHolder
     }
